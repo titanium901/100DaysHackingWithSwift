@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lPz-u7-WdN">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Fun with Flags-->
+        <scene sceneID="njN-1t-nVd">
+            <objects>
+                <tableViewController id="EMs-Uo-A4z" customClass="TableViewController" customModule="MilestoneProject1_3" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="5gM-vM-rrB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="bTh-1D-qSr">
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bTh-1D-qSr" id="ce9-jL-OaW">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="EMs-Uo-A4z" id="kht-W4-Pgs"/>
+                            <outlet property="delegate" destination="EMs-Uo-A4z" id="bis-C9-HJj"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Fun with Flags" id="vcw-UG-dHf"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bVt-7h-lOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="91" y="87"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7tQ-Q5-oq5">
+            <objects>
+                <navigationController id="lPz-u7-WdN" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2cf-1x-y9h">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EMs-Uo-A4z" kind="relationship" relationship="rootViewController" id="EWd-t6-y8r"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g89-SK-JWZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-828" y="87"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="kaX-Xr-6gz">
+            <objects>
+                <viewController storyboardIdentifier="Detail" id="Fyt-G1-w83" customClass="DetailViewController" customModule="MilestoneProject1_3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cf7-ZU-u0g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="france.png" translatesAutoresizingMaskIntoConstraints="NO" id="1n6-DV-U3U">
+                                <rect key="frame" x="20" y="294" width="374" height="188"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="MJV-8G-pX6"/>
+                                    <constraint firstAttribute="height" constant="188" id="W1S-AL-zcV"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1n6-DV-U3U" firstAttribute="leading" secondItem="ozr-7g-pQK" secondAttribute="leading" constant="20" id="Ump-vY-wQt"/>
+                            <constraint firstItem="1n6-DV-U3U" firstAttribute="top" secondItem="ozr-7g-pQK" secondAttribute="top" constant="250" id="YBg-iN-qwy"/>
+                            <constraint firstItem="ozr-7g-pQK" firstAttribute="trailing" secondItem="1n6-DV-U3U" secondAttribute="trailing" constant="20" id="bvS-RO-Cbb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ozr-7g-pQK"/>
+                    </view>
+                    <connections>
+                        <outlet property="selectedImage" destination="1n6-DV-U3U" id="pN5-Px-v3w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AlG-xc-7c2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="837.68115942028987" y="85.714285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="france.png" width="200" height="100"/>
+    </resources>
+</document>
