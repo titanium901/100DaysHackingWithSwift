@@ -11,3 +11,8 @@ Project from https://www.hackingwithswift.com/100/
 
 ![countryGame](https://user-images.githubusercontent.com/30910230/59517839-20213d80-8ecd-11e9-89db-59f68544f769.gif)
 
+# Project3 - 3.1
+add UIActivityViewController to previous project
+
+# Project Milestone: Projects 1-3
+
