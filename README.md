@@ -31,7 +31,7 @@ Word scramble
 
 # Project6
 
-![Simulator Screen Shot - iPhone Xʀ - 2019-06-20 at 16 36 15](https://user-images.githubusercontent.com/30910230/59853449-8ef11180-9379-11e9-832c-eae710d8c3d2.png)
+![pr6](https://user-images.githubusercontent.com/30910230/59853569-cbbd0880-9379-11e9-934f-90c89752db77.gif)
 
 # Project Milestone: Projects 4-6
 Shopping list
