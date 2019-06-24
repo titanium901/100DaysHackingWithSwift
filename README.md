@@ -42,3 +42,12 @@ Shopping list
 Work with white house petitions api
 
 ![pr7](https://user-images.githubusercontent.com/30910230/59931785-74d53300-944e-11e9-813d-19645a6afad2.gif)
+
+# Project 8 
+Challenge:
+Use the techniques you learned in project 2 to draw a thin gray line around the buttons view, to make it stand out from the rest of the UI.
+If the user enters an incorrect guess, show an alert telling them they are wrong. You’ll need to extend the submitTapped() method so that if firstIndex(of:) failed to find the guess you show the alert.
+Try making the game also deduct points if the player makes an incorrect guess. Think about how you can move to the next level – we can’t use a simple division remainder on the player’s score any more, because they might have lost some points.
+
+![pr8](https://user-images.githubusercontent.com/30910230/60033304-00e69500-96b1-11e9-8398-bfe8f6e91e6a.gif)
+
