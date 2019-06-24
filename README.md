@@ -27,6 +27,7 @@ Load the list of available flags from the app bundle. You can type them directly
 Create a new Cocoa Touch Class responsible for the detail view controller, and give it properties for its image view and the image to load.
 You’ll also need to adjust your storyboard to include the detail view controller, including using Auto Layout to pin its image view correctly.
 You will need to use UIActivityViewController to share your flag.
+
 ![pr1-3](https://user-images.githubusercontent.com/30910230/59692368-72c06980-91ed-11e9-940d-49e8e210ed39.gif)
 
 # Project4 
