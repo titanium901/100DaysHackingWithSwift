@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MilestoneProject7_9" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tap character to guess" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kDJ-yG-HL7">
+                                <rect key="frame" x="51.5" y="428" width="311.5" height="40"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="w2s-cf-Mqr">
+                                <rect key="frame" x="16" y="594" width="382" height="258"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="0ht-Ga-oRF">
+                                        <rect key="frame" x="50" y="0.0" width="282" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53Q-cX-x58">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="cZR-gg-FVI"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8vp-t3-QBH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FnZ-xT-Xfg">
+                                                <rect key="frame" x="42" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="Bgw-hE-gOP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dq7-o4-Rio"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="di7-NQ-jEC">
+                                                <rect key="frame" x="84" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="upn-B6-zlm"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ue4-FK-4FS"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9n-D0-UqS">
+                                                <rect key="frame" x="126" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="Phq-T3-noV"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eiU-mj-hWt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ox6-wN-4y8">
+                                                <rect key="frame" x="168" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="QBM-q0-xJb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ij0-IZ-jD9"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sl1-gQ-ZBT">
+                                                <rect key="frame" x="210" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="CQV-Cj-DzK"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cSu-eH-AqK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5L-MY-CY7">
+                                                <rect key="frame" x="252" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="z1T-ke-6op"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LyH-79-lI4"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="36d-zA-2ce">
+                                        <rect key="frame" x="50" y="62" width="282" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3S-At-MLz">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="cNl-IX-gKr"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tWc-Mv-Mh7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ng-dh-dwV">
+                                                <rect key="frame" x="42" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="afs-Wq-xuZ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d1c-cO-RMf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAX-wS-WMX">
+                                                <rect key="frame" x="84" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="E0O-qH-ehp"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0YT-kw-cxE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zuu-l6-eOr">
+                                                <rect key="frame" x="126" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="mmi-1P-0aZ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jFw-Mm-EpD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="keA-Q7-a1w">
+                                                <rect key="frame" x="168" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="iXS-5X-40K"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WRg-aQ-1dr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Im8-FV-ekZ">
+                                                <rect key="frame" x="210" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="rTu-Ct-dg0"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dhU-qA-4RQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4of-9G-Qxq">
+                                                <rect key="frame" x="252" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="61G-5e-IBX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZNd-nD-83w"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="94D-9u-wAa">
+                                        <rect key="frame" x="50" y="124" width="282" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QsC-CS-tt7">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="YhR-1f-Dka"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VQn-1f-nep"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIL-Lx-EN6">
+                                                <rect key="frame" x="42" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="95J-GR-IN7"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rIv-v8-JAZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7Y-uD-Fee">
+                                                <rect key="frame" x="84" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="bKt-HY-DNz"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aSB-ym-jgp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkL-78-hJW">
+                                                <rect key="frame" x="126" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="Qb1-6B-8Uz"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9vZ-AA-uyh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9K-ku-wYK">
+                                                <rect key="frame" x="168" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="D6R-Up-VgJ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dlk-fl-zFo"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8H-Zs-bmv">
+                                                <rect key="frame" x="210" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="L0K-mK-OMX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g0a-Vu-6sp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sem-U7-jjf">
+                                                <rect key="frame" x="252" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="IYV-kb-kZv"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ett-6m-tF9"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="jL0-qz-UeS">
+                                        <rect key="frame" x="50" y="186" width="282" height="72"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kh0-PD-RnE">
+                                                <rect key="frame" x="0.0" y="11" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="iVq-Jh-xuL"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PYj-oB-WyA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Z3-D7-X31">
+                                                <rect key="frame" x="63" y="11" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="Bme-cC-hxI"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jeV-u5-sYf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v36-8c-Hbe">
+                                                <rect key="frame" x="126" y="11" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="G4F-de-wme"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dc6-oc-Zhh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Be8-Eq-SPG">
+                                                <rect key="frame" x="189" y="11" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="BOT-mS-L9g"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VoZ-w8-lBl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4S-D5-uet">
+                                                <rect key="frame" x="252" y="11" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="SIT-kH-Chb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5TJ-aA-Jgw"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hang12" translatesAutoresizingMaskIntoConstraints="NO" id="LD9-0o-QX6">
+                                <rect key="frame" x="20" y="98" width="374" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="211" id="R84-rm-d9u"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aee-wK-T6C">
+                                <rect key="frame" x="8" y="59" width="196.5" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steps to death:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VhO-iI-bxG">
+                                        <rect key="frame" x="0.0" y="0.0" width="160.5" height="40"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1NJ-Os-Q6C">
+                                        <rect key="frame" x="170.5" y="0.0" width="26" height="40"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="C3O-l6-Yx0"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="TAJ-s0-tCu">
+                                <rect key="frame" x="330.5" y="59" width="75.5" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Win:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4DL-P4-wtI">
+                                        <rect key="frame" x="0.0" y="0.0" width="52.5" height="40"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mP9-VS-RST">
+                                        <rect key="frame" x="62.5" y="0.0" width="13" height="40"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="euF-iU-ors"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w2s-cf-Mqr" secondAttribute="trailing" constant="16" id="43V-MJ-anG"/>
+                            <constraint firstItem="LD9-0o-QX6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="54" id="5iR-fg-JKC"/>
+                            <constraint firstItem="w2s-cf-Mqr" firstAttribute="top" relation="lessThanOrEqual" secondItem="kDJ-yG-HL7" secondAttribute="bottom" constant="126" id="9aI-jp-pB3"/>
+                            <constraint firstItem="LD9-0o-QX6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="BJx-Ef-0zd"/>
+                            <constraint firstItem="LD9-0o-QX6" firstAttribute="centerX" secondItem="w2s-cf-Mqr" secondAttribute="centerX" id="L3T-mo-bsk"/>
+                            <constraint firstItem="aee-wK-T6C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="MtE-il-Mfb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TAJ-s0-tCu" secondAttribute="trailing" constant="8" id="Rbe-dL-sCS"/>
+                            <constraint firstItem="kDJ-yG-HL7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VdY-At-aGP"/>
+                            <constraint firstItem="TAJ-s0-tCu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="Wjg-CH-Rfa"/>
+                            <constraint firstItem="kDJ-yG-HL7" firstAttribute="top" relation="lessThanOrEqual" secondItem="LD9-0o-QX6" secondAttribute="bottom" constant="119" id="Za7-Q5-hxY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="w2s-cf-Mqr" secondAttribute="bottom" constant="10" id="amU-eX-Ifd"/>
+                            <constraint firstItem="aee-wK-T6C" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="fXN-RC-HQm"/>
+                            <constraint firstItem="w2s-cf-Mqr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="rhZ-Ft-sKg"/>
+                            <constraint firstItem="kDJ-yG-HL7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uH7-Ys-cmL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="aee-wK-T6C"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="MtE-il-Mfb"/>
+                                <exclude reference="fXN-RC-HQm"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="LD9-0o-QX6" id="dor-oJ-jom"/>
+                        <outlet property="scoreLabel" destination="mP9-VS-RST" id="5h4-tG-QNM"/>
+                        <outlet property="stepsLabel" destination="1NJ-Os-Q6C" id="wBQ-9k-cTP"/>
+                        <outlet property="textField" destination="kDJ-yG-HL7" id="sau-QS-RYz"/>
+                        <outletCollection property="englishButtons" destination="Sl1-gQ-ZBT" collectionClass="NSMutableArray" id="Fav-ZY-OqK"/>
+                        <outletCollection property="englishButtons" destination="v9n-D0-UqS" collectionClass="NSMutableArray" id="Rzu-81-NQO"/>
+                        <outletCollection property="englishButtons" destination="di7-NQ-jEC" collectionClass="NSMutableArray" id="pie-Sd-M1O"/>
+                        <outletCollection property="englishButtons" destination="53Q-cX-x58" collectionClass="NSMutableArray" id="nJ8-C4-Z7R"/>
+                        <outletCollection property="englishButtons" destination="FnZ-xT-Xfg" collectionClass="NSMutableArray" id="b0D-06-kSc"/>
+                        <outletCollection property="englishButtons" destination="S5L-MY-CY7" collectionClass="NSMutableArray" id="s8W-wq-9Yp"/>
+                        <outletCollection property="englishButtons" destination="Ox6-wN-4y8" collectionClass="NSMutableArray" id="tCS-Ur-goK"/>
+                        <outletCollection property="englishButtons" destination="Zuu-l6-eOr" collectionClass="NSMutableArray" id="aNd-Pf-2T9"/>
+                        <outletCollection property="englishButtons" destination="Im8-FV-ekZ" collectionClass="NSMutableArray" id="gPg-0z-aWw"/>
+                        <outletCollection property="englishButtons" destination="MAX-wS-WMX" collectionClass="NSMutableArray" id="wis-SJ-2bH"/>
+                        <outletCollection property="englishButtons" destination="4of-9G-Qxq" collectionClass="NSMutableArray" id="9H8-pR-rN0"/>
+                        <outletCollection property="englishButtons" destination="c3S-At-MLz" collectionClass="NSMutableArray" id="eK2-BM-WaR"/>
+                        <outletCollection property="englishButtons" destination="keA-Q7-a1w" collectionClass="NSMutableArray" id="5ud-yS-Oud"/>
+                        <outletCollection property="englishButtons" destination="1Ng-dh-dwV" collectionClass="NSMutableArray" id="GS8-me-8sL"/>
+                        <outletCollection property="englishButtons" destination="q8H-Zs-bmv" collectionClass="NSMutableArray" id="69Z-T5-qYB"/>
+                        <outletCollection property="englishButtons" destination="n9K-ku-wYK" collectionClass="NSMutableArray" id="TiE-4b-AlR"/>
+                        <outletCollection property="englishButtons" destination="b7Y-uD-Fee" collectionClass="NSMutableArray" id="XUx-X7-9Ll"/>
+                        <outletCollection property="englishButtons" destination="mkL-78-hJW" collectionClass="NSMutableArray" id="R8x-kW-HM9"/>
+                        <outletCollection property="englishButtons" destination="QsC-CS-tt7" collectionClass="NSMutableArray" id="hWs-sB-G0H"/>
+                        <outletCollection property="englishButtons" destination="tIL-Lx-EN6" collectionClass="NSMutableArray" id="uYb-jw-TOT"/>
+                        <outletCollection property="englishButtons" destination="v36-8c-Hbe" collectionClass="NSMutableArray" id="Hnk-bn-byT"/>
+                        <outletCollection property="englishButtons" destination="Kh0-PD-RnE" collectionClass="NSMutableArray" id="Keq-NO-XDU"/>
+                        <outletCollection property="englishButtons" destination="O4S-D5-uet" collectionClass="NSMutableArray" id="iuT-59-uSU"/>
+                        <outletCollection property="englishButtons" destination="Be8-Eq-SPG" collectionClass="NSMutableArray" id="4XZ-wX-2xW"/>
+                        <outletCollection property="englishButtons" destination="2Z3-D7-X31" collectionClass="NSMutableArray" id="PSd-Wh-Nr4"/>
+                        <outletCollection property="englishButtons" destination="Sem-U7-jjf" collectionClass="NSMutableArray" id="gd9-Bs-tAp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="20.380434782608699"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hang12" width="119" height="126"/>
+    </resources>
+</document>
