@@ -129,3 +129,11 @@ Modify project 1 so that it uses a collection view controller rather than a tabl
 ![pr10](https://user-images.githubusercontent.com/30910230/60350628-a14bfa80-99cc-11e9-96ed-c44d2bc02e12.gif)
 ![pr1 2](https://user-images.githubusercontent.com/30910230/60350859-29ca9b00-99cd-11e9-8c10-cc89d3b83383.gif)
 
+# Project 11
+Challenge:
+The pictures we’re using in have other ball pictures rather than just “ballRed”. Try writing code to use a random ball color each time they tap the screen.
+Right now, users can tap anywhere to have a ball created there, which makes the game too easy. Try to force the Y value of new balls so they are near the top of the screen.
+Give players a limit of five balls, then remove obstacle boxes when they are hit. Can they clear all the pins with just five balls? You could make it so that landing on a green slot gets them an extra ball.
+
+![pr11](https://user-images.githubusercontent.com/30910230/60351116-bb3a0d00-99cd-11e9-859c-069b494a5f28.gif)
+
