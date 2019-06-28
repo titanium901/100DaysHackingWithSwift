@@ -5,4 +5,4 @@ Try using picker.sourceType = .camera when creating your image picker, which wil
 Modify project 1 so that it uses a collection view controller rather than a table view controller. I recommend you keep a copy of your original table view controller code so you can refer back to it later on.
 
 
-![pr1 2](https://user-images.githubusercontent.com/30910230/60350859-29ca9b00-99cd-11e9-8c10-cc89d3b83383.gif)
+![pr10](https://user-images.githubusercontent.com/30910230/60350628-a14bfa80-99cc-11e9-96ed-c44d2bc02e12.gif)
