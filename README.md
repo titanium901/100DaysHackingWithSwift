@@ -127,5 +127,5 @@ Modify project 1 so that it uses a collection view controller rather than a tabl
 
 
 ![pr10](https://user-images.githubusercontent.com/30910230/60350628-a14bfa80-99cc-11e9-96ed-c44d2bc02e12.gif)
-![pr10](https://user-images.githubusercontent.com/30910230/60350628-a14bfa80-99cc-11e9-96ed-c44d2bc02e12.gif)
+![pr1 2](https://user-images.githubusercontent.com/30910230/60350859-29ca9b00-99cd-11e9-8c10-cc89d3b83383.gif)
 
