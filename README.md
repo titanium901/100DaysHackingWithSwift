@@ -118,3 +118,14 @@ The challenge is this: make a hangman game using UIKit. As a reminder, this mean
 The user can then guess letters one at a time: if they guess a letter that it’s in the word, e.g. H, it gets revealed to make “?H??H?”; if they guess an incorrect letter, they inch closer to death. If they seven incorrect answers they lose, but if they manage to spell the full word before that they win.
 
 ![ml7-9](https://user-images.githubusercontent.com/30910230/60273688-544e2280-98ff-11e9-9705-20ba255ff157.gif)
+
+# Project 10
+Challenge:
+Add a second UIAlertController that gets shown when the user taps a picture, asking them whether they want to rename the person or delete them.
+Try using picker.sourceType = .camera when creating your image picker, which will tell it to create a new image by taking a photo. This is only available on devices (not on the simulator) so you might want to check the return value of UIImagePickerController.isSourceTypeAvailable() before trying to use it!
+Modify project 1 so that it uses a collection view controller rather than a table view controller. I recommend you keep a copy of your original table view controller code so you can refer back to it later on.
+
+
+![pr10](https://user-images.githubusercontent.com/30910230/60350628-a14bfa80-99cc-11e9-96ed-c44d2bc02e12.gif)
+![pr10](https://user-images.githubusercontent.com/30910230/60350628-a14bfa80-99cc-11e9-96ed-c44d2bc02e12.gif)
+
