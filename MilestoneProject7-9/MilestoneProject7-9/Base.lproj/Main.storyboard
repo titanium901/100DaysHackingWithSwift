@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,17 +15,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MilestoneProject7_9" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tap character to guess" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kDJ-yG-HL7">
-                                <rect key="frame" x="51.5" y="428" width="311.5" height="40"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="w2s-cf-Mqr">
-                                <rect key="frame" x="16" y="594" width="382" height="258"/>
+                                <rect key="frame" x="16" y="366" width="382" height="360"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="0ht-Ga-oRF">
                                         <rect key="frame" x="50" y="0.0" width="282" height="50"/>
@@ -35,7 +29,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="cZR-gg-FVI"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8vp-t3-QBH"/>
@@ -46,7 +40,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="Bgw-hE-gOP"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dq7-o4-Rio"/>
@@ -57,7 +51,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="upn-B6-zlm"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ue4-FK-4FS"/>
@@ -68,7 +62,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="Phq-T3-noV"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eiU-mj-hWt"/>
@@ -79,7 +73,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="QBM-q0-xJb"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ij0-IZ-jD9"/>
@@ -90,7 +84,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="CQV-Cj-DzK"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cSu-eH-AqK"/>
@@ -101,7 +95,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="z1T-ke-6op"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LyH-79-lI4"/>
@@ -117,7 +111,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="cNl-IX-gKr"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tWc-Mv-Mh7"/>
@@ -128,7 +122,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="afs-Wq-xuZ"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d1c-cO-RMf"/>
@@ -139,7 +133,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="E0O-qH-ehp"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0YT-kw-cxE"/>
@@ -150,7 +144,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="mmi-1P-0aZ"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jFw-Mm-EpD"/>
@@ -161,7 +155,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="iXS-5X-40K"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WRg-aQ-1dr"/>
@@ -172,7 +166,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="rTu-Ct-dg0"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dhU-qA-4RQ"/>
@@ -183,7 +177,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="61G-5e-IBX"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZNd-nD-83w"/>
@@ -199,7 +193,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="YhR-1f-Dka"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VQn-1f-nep"/>
@@ -210,7 +204,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="95J-GR-IN7"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rIv-v8-JAZ"/>
@@ -221,7 +215,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="bKt-HY-DNz"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aSB-ym-jgp"/>
@@ -232,7 +226,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="Qb1-6B-8Uz"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9vZ-AA-uyh"/>
@@ -243,7 +237,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="D6R-Up-VgJ"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dlk-fl-zFo"/>
@@ -254,7 +248,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="L0K-mK-OMX"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g0a-Vu-6sp"/>
@@ -265,7 +259,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="IYV-kb-kZv"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ett-6m-tF9"/>
@@ -274,58 +268,58 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="jL0-qz-UeS">
-                                        <rect key="frame" x="50" y="186" width="282" height="72"/>
+                                        <rect key="frame" x="50" y="186" width="282" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kh0-PD-RnE">
-                                                <rect key="frame" x="0.0" y="11" width="30" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="iVq-Jh-xuL"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PYj-oB-WyA"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Z3-D7-X31">
-                                                <rect key="frame" x="63" y="11" width="30" height="50"/>
+                                                <rect key="frame" x="63" y="0.0" width="30" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="Bme-cC-hxI"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jeV-u5-sYf"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v36-8c-Hbe">
-                                                <rect key="frame" x="126" y="11" width="30" height="50"/>
+                                                <rect key="frame" x="126" y="0.0" width="30" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="G4F-de-wme"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dc6-oc-Zhh"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Be8-Eq-SPG">
-                                                <rect key="frame" x="189" y="11" width="30" height="50"/>
+                                                <rect key="frame" x="189" y="0.0" width="30" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="BOT-mS-L9g"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VoZ-w8-lBl"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4S-D5-uet">
-                                                <rect key="frame" x="252" y="11" width="30" height="50"/>
+                                                <rect key="frame" x="252" y="0.0" width="30" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="SIT-kH-Chb"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="30"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
                                                     <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5TJ-aA-Jgw"/>
@@ -333,10 +327,97 @@
                                             </button>
                                         </subviews>
                                     </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="irZ-mc-oVo">
+                                        <rect key="frame" x="50" y="248" width="282" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfR-4y-d9O">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="Jl0-9X-uxX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CUh-0a-dhw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhk-wy-MNt">
+                                                <rect key="frame" x="63" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="Ref-P9-RLb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JuI-Ql-Y4d"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNw-xo-V7Q">
+                                                <rect key="frame" x="126" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="CVV-za-aPa"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Mh-3c-6ZU"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHN-en-o5R">
+                                                <rect key="frame" x="189" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="oU5-LQ-ohk"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3TF-wO-Jgs"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hs6-UB-vVR">
+                                                <rect key="frame" x="252" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="kE7-EH-bWB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mOq-FY-Jf0"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="kAw-II-7Ud">
+                                        <rect key="frame" x="144.66666666666666" y="310" width="93" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yTO-gp-oif">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="0Rk-bh-KfM"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y3R-UI-PrZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vcd-kO-fGS">
+                                                <rect key="frame" x="63" y="0.0" width="30" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="REi-5P-Zhu"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                                <state key="normal" title="A"/>
+                                                <connections>
+                                                    <action selector="buttonTappde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dhC-mx-xLb"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hang12" translatesAutoresizingMaskIntoConstraints="NO" id="LD9-0o-QX6">
-                                <rect key="frame" x="20" y="98" width="374" height="211"/>
+                                <rect key="frame" x="20" y="74" width="374" height="211"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="211" id="R84-rm-d9u"/>
                                 </constraints>
@@ -362,16 +443,16 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="TAJ-s0-tCu">
-                                <rect key="frame" x="330.5" y="59" width="75.5" height="40"/>
+                                <rect key="frame" x="330.33333333333331" y="35" width="75.666666666666686" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Win:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4DL-P4-wtI">
-                                        <rect key="frame" x="0.0" y="0.0" width="52.5" height="40"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="52.666666666666664" height="40"/>
                                         <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mP9-VS-RST">
-                                        <rect key="frame" x="62.5" y="0.0" width="13" height="40"/>
+                                        <rect key="frame" x="62.666666666666686" y="0.0" width="13" height="40"/>
                                         <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -381,6 +462,12 @@
                                     <constraint firstAttribute="height" constant="40" id="euF-iU-ors"/>
                                 </constraints>
                             </stackView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tap character to guess" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kDJ-yG-HL7">
+                                <rect key="frame" x="51.333333333333343" y="308" width="311.33333333333326" height="40"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -391,9 +478,9 @@
                             <constraint firstItem="LD9-0o-QX6" firstAttribute="centerX" secondItem="w2s-cf-Mqr" secondAttribute="centerX" id="L3T-mo-bsk"/>
                             <constraint firstItem="aee-wK-T6C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="MtE-il-Mfb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TAJ-s0-tCu" secondAttribute="trailing" constant="8" id="Rbe-dL-sCS"/>
-                            <constraint firstItem="kDJ-yG-HL7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VdY-At-aGP"/>
+                            <constraint firstItem="kDJ-yG-HL7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-40" id="VdY-At-aGP"/>
                             <constraint firstItem="TAJ-s0-tCu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="Wjg-CH-Rfa"/>
-                            <constraint firstItem="kDJ-yG-HL7" firstAttribute="top" relation="lessThanOrEqual" secondItem="LD9-0o-QX6" secondAttribute="bottom" constant="119" id="Za7-Q5-hxY"/>
+                            <constraint firstItem="kDJ-yG-HL7" firstAttribute="top" relation="lessThanOrEqual" secondItem="LD9-0o-QX6" secondAttribute="bottom" constant="110" id="Za7-Q5-hxY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="w2s-cf-Mqr" secondAttribute="bottom" constant="10" id="amU-eX-Ifd"/>
                             <constraint firstItem="aee-wK-T6C" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="fXN-RC-HQm"/>
                             <constraint firstItem="w2s-cf-Mqr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="rhZ-Ft-sKg"/>
@@ -441,6 +528,13 @@
                         <outletCollection property="englishButtons" destination="Be8-Eq-SPG" collectionClass="NSMutableArray" id="4XZ-wX-2xW"/>
                         <outletCollection property="englishButtons" destination="2Z3-D7-X31" collectionClass="NSMutableArray" id="PSd-Wh-Nr4"/>
                         <outletCollection property="englishButtons" destination="Sem-U7-jjf" collectionClass="NSMutableArray" id="gd9-Bs-tAp"/>
+                        <outletCollection property="englishButtons" destination="Vcd-kO-fGS" collectionClass="NSMutableArray" id="tDW-Zq-UOu"/>
+                        <outletCollection property="englishButtons" destination="yTO-gp-oif" collectionClass="NSMutableArray" id="dQu-gm-vsc"/>
+                        <outletCollection property="englishButtons" destination="cfR-4y-d9O" collectionClass="NSMutableArray" id="VUd-wd-4wJ"/>
+                        <outletCollection property="englishButtons" destination="qhk-wy-MNt" collectionClass="NSMutableArray" id="UYA-Mg-JKy"/>
+                        <outletCollection property="englishButtons" destination="YNw-xo-V7Q" collectionClass="NSMutableArray" id="cnL-Wg-lq8"/>
+                        <outletCollection property="englishButtons" destination="nHN-en-o5R" collectionClass="NSMutableArray" id="SyX-Mi-13b"/>
+                        <outletCollection property="englishButtons" destination="hs6-UB-vVR" collectionClass="NSMutableArray" id="vwk-WL-lLc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

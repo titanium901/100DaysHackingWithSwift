@@ -16,8 +16,11 @@ class ViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var textField: UITextField!
     
-    var englishAlphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-    var words = ["Awkward", "Bagpipes", "Banjo", "Bungler", "Croquet", "Crypt", "Dwarves", "Fervid"]
+    var englishAlphabet = ["а", "б", "в", "г", "д", "е", "ё", "ж", "з", "и", "й", "к", "л", "м", "н", "о", "п", "р", "с", "т", "у", "ф", "х", "ц", "ч", "ш", "щ", "ь", "ы", "э", "ю", "я", "ъ"]
+    
+  //  var englishAlphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+//    var words = ["Awkward", "Bagpipes", "Banjo", "Bungler", "Croquet", "Crypt", "Dwarves", "Fervid"]
+    var words = ["ежедневник", "календарь", "леопард", "сауна", "издательство", "переводчик", "ириска", "логика", "тхэквондо", "Фантастика", "радар", "акция", "овощи", "банан", "абонемент", "тир", "Пират", "Автомобиль", "Торт"]
     var currentWord = ""
     var hidenWord = ""
     var textArFinal = [String]()
@@ -36,13 +39,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print(englishButtons.count, englishAlphabet.count)
         textField.isUserInteractionEnabled = false
         setWord()
         
         stepsLabel.text = "\(stepsToDeath)"
         print(#function, textArFinal)
-        
+        print(englishAlphabet.count)
 
     }
 
@@ -51,9 +54,15 @@ class ViewController: UIViewController {
         englishAlphabet.shuffle()
         var index = 0
         for button in englishButtons {
-            button.setTitle(englishAlphabet[index], for: .normal)
+            button.setTitle(englishAlphabet[index].uppercased(), for: .normal)
             button.isHidden = false
+            button.isEnabled = true
+            button.alpha = 1
+            button.setTitleColor(.red, for: .disabled)
             index += 1
+            button.center.y = 25
+            
+            
         }
     }
     
@@ -75,7 +84,7 @@ class ViewController: UIViewController {
     }
     
     func gameOver() {
-        let ac = UIAlertController(title: "Game Over", message: nil, preferredStyle: .alert)
+        let ac = UIAlertController(title: "Game Over", message: "It was \(currentWord.uppercased())", preferredStyle: .alert)
         let restart = UIAlertAction(title: "Restart", style: .cancel) { _ in
             self.restartGame()
         }
@@ -106,6 +115,7 @@ class ViewController: UIViewController {
         textArFinal = Array(repeating: "?", count: currentWord.count)
     }
     
+    
     @objc func nextLevel() {
         restartGame()
     }
@@ -123,12 +133,24 @@ class ViewController: UIViewController {
         for word in currentWord {
             currentArr.append(String(word))
         }
-        let buttonTitle = (sender.titleLabel?.text)!
+        let buttonTitle = (sender.titleLabel?.text)!.lowercased()
         if !currentArr.contains(buttonTitle) {
             //код для вешания
             if stepsToDeath == 1 {
                 gameOver()
             }
+            sender.isEnabled = false
+            
+            sender.titleLabel?.textColor = .red
+            let animator = UIViewPropertyAnimator(duration: 1, curve: .easeInOut) {
+                sender.center.y -= 10
+                
+            }
+            animator.startAnimation()
+            sender.desapere()
+            
+            
+            print(#function)
             stepsToDeath -= 1
             imageView.image = UIImage(named: "hang\(stepsToDeath)")
             
@@ -138,7 +160,14 @@ class ViewController: UIViewController {
                 print(index, value)
                 hidenArr[index] = String(value)
                 textArFinal[index] = String(value)
-                sender.isHidden = true
+                sender.isEnabled = false
+                sender.setTitleColor(.black, for: .disabled)
+                let animator = UIViewPropertyAnimator(duration: 1, curve: .linear) {
+                    sender.center.y += 100
+                    sender.alpha -= 1
+                }
+                animator.startAnimation()
+                
                 
             }
         }
@@ -159,5 +188,25 @@ class ViewController: UIViewController {
             
         }
     }
+    
+    
 }
+
+extension UIButton {
+    
+    func desapere() {
+        let desapere = CASpringAnimation(keyPath: "transform.scale")
+        desapere.duration = 0.6
+        desapere.fromValue = 0.95
+        desapere.toValue = 1
+        desapere.autoreverses = true
+        desapere.repeatCount = 2
+        desapere.initialVelocity = 0.5
+        desapere.damping = 1
+        
+        layer.add(desapere, forKey: nil)
+    }
+}
+
+
 
