@@ -2,7 +2,9 @@
 Project from https://www.hackingwithswift.com/100/
 
 Milestone Projects: Make Projects from scratch
+
 Projects:  We write the code for the teacher
+
 Challenge: Improve the finished project and apply knowledge in practice
 
 <img width="754" alt="sws" src="https://user-images.githubusercontent.com/30910230/56293950-bbe33700-6132-11e9-83bf-5f1178382e2d.png">
