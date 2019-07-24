@@ -255,3 +255,11 @@ Add an action button to the navigation bar in the detail view controller that sh
 
 ![ml19-21](https://user-images.githubusercontent.com/30910230/61546859-ee167480-aa52-11e9-8f22-e0e54b4b3153.gif)
 
+
+# Project 23
+
+Challenge:
+Create a new, fast-moving type of enemy that awards the player bonus points if they hit it.
+Add a “Game over” sprite node to the game scene when the player loses all their lives.
+
+![pr23](https://user-images.githubusercontent.com/30910230/61772762-bb2a0300-adfb-11e9-9fe0-2ba8e5ed43f6.gif)
