@@ -274,3 +274,11 @@ Extend UIView so that it has a bounceOut(duration:) method that uses animation t
 Extend Int with a times() method that runs a closure as many times as the number is high. For example, 5.times { print("Hello!") } will print “Hello” five times.
 Extend Array so that it has a mutating remove(item:) method. If the item exists more than once, it should remove only the first instance it finds. Tip: you will need to add the Comparable constraint to make this work!
 
+# Project 25 
+
+Challenge:
+Show an alert when a user has disconnected from our multipeer network. Something like “Paul’s iPhone has disconnected” is enough.
+Try sending text messages across the network. You can create a Data from a string using Data(yourString.utf8), and convert a Data back to a string by using String(decoding: yourData, as: UTF8.self).
+Add a button that shows an alert controller listing the names of all devices currently connected to the session – use the connectedPeers property of your session to find that information.
+
+![Project25](https://user-images.githubusercontent.com/30910230/61958921-f4fd3400-afca-11e9-92a8-9eb8011d3e65.gif)
